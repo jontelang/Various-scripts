@@ -6,14 +6,13 @@ colorGray="\e[90m"
 colorGreen="\e[32m"
 colorRed="\e[31m"
 
-# Enter you API details from the cydia connect site here
-# Hash = "md5 -s username1276357653186253876152376"
-# Products = array
-# Example products="com.username.tweak1
-#                   com.username.tweak2
-#                   com.username.tweak3"
-myhash=$CYDIA_PRIVATE_HASH
-products=$PRODUCT_IDENTIFIERS
+# Enter your API details from the cydia connect site here
+# myhash is a md5 sum of your VENDOR ID and SECRET KEY
+# that you get here https://cydia.saurik.com/connect/api/
+myhash=234hgkjhg23j5hvj2h342gh4fh2g3f4hg2f3k4hj2
+products="com.username.tweak1
+          com.username.tweak2
+          com.username.tweak3"
  
 # Some starting values
 allTweaksTotalSum=0
