@@ -46,7 +46,7 @@ In this example I've set the following vars
 **Same, uncommitted stuff..**  
 ![](images/5.png)  
 
-Suddenly the previous PR was merged. And QA-team wants to QA the newly merged feature. But we're right in the middle of working **and context switching is never nice.**  
+**Suddenly the previous PR was merged. And QA-team wants to QA the newly merged feature. But we're right in the middle of working **and context switching is never nice.**  
 ![](images/6.png)  
 
 **You can see here that the feature_gui is merged into origin/Development. Now QA wants their origin/Development to be up to dat**e.  
