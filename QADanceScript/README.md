@@ -46,13 +46,13 @@ In this example I've set the following vars
 <!-- **(Same, uncommitted stuff..**  
 ![](images/5.png)   -->
 
-**...the previous PR was merged. And QA-team wants to QA the newly merged feature. But we're right in the middle of working **and context switching is never nice.**  
+**...the previous PR was merged. And QA-team wants to QA the newly merged feature. But we're right in the middle of working and context switching is never nice.**  
 ![](images/6.png)  
 
-**You can see here that the feature_gui is merged into origin/Development. Now QA wants their origin/Development to be up to dat**e.  
+**You can see here that the feature_gui is merged into origin/Development. Now QA wants their origin/Development to be up to date.  
 ![](images/7.png)
 
-**QA Dance script booting up  **  
+**QA Dance script booting up**    
 ![](images/8.png)  
 
 **It goes to the folder within the script (no need to cd yourself)**  
