@@ -9,9 +9,9 @@ You are in the middle of coding and QA wants new stuff that are on development b
 
 In this example I've set the following vars
 
-`BRANCH_TO_MERGE_FROM=Development-branch`  
-`BRANCH_TO_MERGE_INTO=QA-branch`  
-`REPO_DIR=/dir/to/repo`
+`BRANCH_TO_MERGE_FROM` = Development-branch  
+`BRANCH_TO_MERGE_INTO` = QA-branch  
+`REPO_DIR` = /dir/to/repo
 
 1. CD to your project folder (`/dir/to/repo`)
 2. Stash any temporary work in a new stash
