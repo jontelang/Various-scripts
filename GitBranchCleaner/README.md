@@ -28,7 +28,7 @@ You have loads of branches and you don't want to manually delete them.
 **First we go to the right folder**  
 ![](images/2.png)  
 
-**The sanity checking, it has "saved" me lots of times actually**  
+**The sanity checking** (it has saved me lots of times actually)  
 ![](images/3.png)  
 
 **Letting you know the current branch**  
@@ -37,7 +37,7 @@ You have loads of branches and you don't want to manually delete them.
 **Just a list of all branches, for informational purposes**  
 ![](images/5.png)  
 
-**This is also just a list, but run through git to see if they are merge into the current branch**  
+**This is also just a list, but run through git to see if they are merged into the current branch**  
 ![](images/6.png)  
 
 **How it looks like when we delete or keep a branch**  
