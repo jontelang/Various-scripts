@@ -55,7 +55,7 @@ gray='\033[1;30m';
 clear='\033[0m';
 
 #
-IOS_APP_FOLDER=~/Desktop/HotelQuickly/iOSApp/HotelQuickly/; # last "/" is important
+IOS_APP_FOLDER=REPO_DIR/; # last "/" is important
 cd $IOS_APP_FOLDER
 echo -e "CDing to ${blue}$IOS_APP_FOLDER${clear}";
 echo -e "pwd is: ${blue}$(pwd)${clear}"
