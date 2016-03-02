@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Is the first parameter/argument sent to the script
+autoOverwrite=$1 # Can be "-f" or nothing at all
+
 # Set these up with your own branches and dirs
 REPO_DIR=DIR_OF_REPO
 BRANCH_TO_MERGE_FROM=BRANCH_NAME_TO_MERGE_FROM
@@ -8,14 +11,18 @@ BRANCH_TO_MERGE_INTO=BRANCH_NAME_TO_MERGE_INTO_AND_PUSH_UP
 # Just a helper method
 function yes_prompt 
 {
-	echo -en "${gray}Type \"yes\" to continue: ${clear}"; 
-	read key;
-
-	if [[ $key = "yes" ]]; then 
-		echo;
+	if [ "$autoOverwrite" = "-f" ]; then
+		echo; # just autoyes
 	else
-	    echo "Warning: \"yes\" was not written, exiting script.";
-	    exit 1;
+		echo -en "${gray}Type \"yes\" to continue: ${clear}"; 
+		read key;
+
+		if [[ $key = "yes" ]]; then 
+			echo;
+		else
+		    echo "Warning: \"yes\" was not written, exiting script.";
+		    exit 1;
+		fi
 	fi
 }
 
