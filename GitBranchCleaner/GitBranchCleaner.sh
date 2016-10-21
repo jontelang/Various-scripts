@@ -28,6 +28,8 @@ function delete_prompt ()
 	else
 		echo -e "${red}---->DELETING [$1]${clear}";
 		git branch -d $1;
+		# echo -e "${red}---->DELETING remote [$1]${clear}";
+		# git push origin --delete $1
 	fi
 }
 
