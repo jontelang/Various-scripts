@@ -20,10 +20,10 @@ function yes_prompt
 function delete_prompt ()
 {
 	# echo;
-	echo -en "${gray}\"delete\" to do it (anything else to continue/skip): ${clear}";
+	echo -en "${gray}\"d\" to do it (anything else to continue/skip): ${clear}";
 	read key
 
-	if [[ $key != "delete" ]]; then 
+	if [[ $key != "d" ]]; then 
 	    echo -e "${green}---->Skipping delete of [$1]${clear}";
 	else
 		echo -e "${red}---->DELETING [$1]${clear}";
